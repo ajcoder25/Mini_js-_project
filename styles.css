@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#colorRectangle {
+    width: 500px;
+    height: 500px;
+    /* Adjust the height as needed */
+    background-color: red;
+    /* Initial color */
+    transition: background-color 0.3s ease;
+    /* Smooth color transition */
+}
